@@ -19,6 +19,18 @@ public class RemoveDuplicates {
             System.out.println(x);
         }
 
+        /*
+            int j = nums.length - 1;
+
+            int c = 0;
+            for(int i = 1; i <=j;i++ ){
+                if(nums[i] != nums[c]){
+                    nums[++c] = nums[i];
+                }
+            }
+            return c+1;
+        */
+
 
     }
 }
